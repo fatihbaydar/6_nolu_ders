@@ -1,0 +1,60 @@
+
+.img-float{
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.par1{
+    background-color: chocolate;
+}
+
+.par2{
+    /* clear: left; */
+}
+
+.clear{
+    clear: both;
+}
+/* float yüzmek demek. resime float left deyince sol tarafta yüz demiş olduk. paragraf da onun sağ yanına geldi. paragrafa arkaplan rengi verip resmi margin ile sağa çekince gördük ki paragraf resmin altında kalmış, ancak paragrafın içeriği resimden etkilenmemiş, o sağda kalmış. 2.bir paragraf verdiğimizde ve onun folatta etkilenmesini istemediğimizde par1 den sonra clear left ile floatın bozukluğunu giderebiliriz. ancak yaygın yöntem html sayfasında clear classı oluşturup par1 den sonra o classa clear both yapmak. */
+
+.container{
+    border: 2px solid red;
+    margin-top: 50px;
+}
+.box{
+    /* width: 100px;
+    height: 100px; */
+    margin: 5px;
+}
+
+.box1{
+   background-color: aqua;
+   width: 20%;
+   float: left;
+   height: 150px;
+}
+
+.box2{
+    background-color: rgb(102, 0, 255);
+    width: 50%;
+    float: left;
+    height: 40vh;
+    background-image: url("https://picsum.photos/id/211/600/400");
+    background-size: cover;
+    background-position: center;
+ }
+
+ .box3{
+    background-color: rgb(255, 0, 21);
+    width: 20%;
+    float: left;
+    height: 500px;
+ }
+
+
+
+
+

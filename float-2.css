@@ -1,0 +1,55 @@
+/* *{
+    border: 2px solid black
+} */
+
+
+.container *{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header{
+    background-color: green;
+}
+
+main{
+    background-color: bisque;
+    padding: 5px;
+    /* height: 350px; */
+    /* overflow: auto; */
+    /* mainin içindeki elemanların float nedeniyle yüzmesi ve mainin içinin boş kalması nedeniyle height veya overflow verince main sanki bu iki elemanın (aside ve article) arkasında gibi olur. */
+    
+}
+
+aside{
+    background-color:pink ;
+    width: 25%;
+    height: 300px;
+    float:left
+}
+
+article{
+    background-color: rgb(116, 116, 176);
+    width: 70%;
+    height: 300px;
+    float: left;
+}
+
+footer{
+    background-color: chocolate;
+}
+
+/* .clear{
+    clear: both;
+    border: none;
+} */
+
+/* aside ve articleı float yapınca onların içinde bulunduğu main boş kaldı. bu durumun önüne geçmek için main içine clear div oluşturup onun css ayarlarını yaparız. ancak bu yöntem çok kullanılan bir yöntem değil. */
+
+/* clearfix yöntemi: bunların yerine maine clearfix classı tanımlarız. ve csste bu classın içine boş bir content ekleriz. sonrasında her iki tarafı temizle ve bunu block hale getir. */
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
