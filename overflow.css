@@ -1,0 +1,28 @@
+.box {
+  border: 5px solid green;
+  margin-bottom: 4rem;
+  width: 20rem;
+  height: 4rem;
+ }
+
+ .box1{
+    overflow: visible;
+ }
+
+ .box2{
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+ }
+
+ .box3{
+    overflow: scroll;
+ }
+
+ .box4{
+    overflow:auto;
+ }
+
+ .box5{
+    
+ }
