@@ -1,0 +1,28 @@
+div{
+    background-color: orange;
+    height: 2;
+    border: 2px solid red;
+}
+
+p{
+    line-height: 2;
+}
+
+nav{
+    border: 2px solid rgb(0, 0, 255);
+
+    justify-content:
+}
+
+.example{
+    color: yellow;
+    ul li a{
+        color: blue;
+    }
+    ul a{
+        color: green;
+    }
+    a{
+        color: red;
+    }
+}
